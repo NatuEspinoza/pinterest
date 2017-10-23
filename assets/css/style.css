@@ -1,0 +1,225 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+hr  {
+  color:  #B5B5B5;
+  opacity: 0.5;
+  clear: left;
+}
+
+h3 {
+  font-weight: bold;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Cabecera fija al hacer scroll */
+.header {
+  width: 100%;
+  height: 140px;
+  left: 0;
+	top: 0;
+  background: white;
+  position: fixed;
+}
+
+/* LOGO PINTEREST */
+    .fa-pinterest {
+      color: #BD081C;
+      margin-left: 73px;
+      margin-top: 6px;
+      position: relative;
+      float: left;
+    }
+
+/* Barra de busqueda */
+    .search-bar {
+      width: 963px;
+      height: 38px;
+      margin-left: 28px;
+      margin-top: 11px;
+      background-color: #EFEFEF;
+      border-radius: 8px;
+      position: relative;
+      float: left;
+    }
+
+            .fa-search {
+              margin-left: 53px;
+              margin-top: 9px;
+              display: inline-block;
+              position: absolute;
+            }
+
+            .fa-times {
+              margin-left: 830px;
+              margin-top: 10px;
+              position: absolute;
+            }
+
+            .header p {
+              margin-left: 850px;
+              margin-top: 10px;
+              position: absolute;
+            }
+
+            .fa-chevron-down {
+              margin-left: 905px;
+              margin-top: 10px;
+              position: absolute;
+            }
+/* Menu esquina superior derecha */
+    .menu {
+      width: 147px;
+      height: 38px;
+      margin-left: 30px;
+      margin-top: 13px;
+      position: relative;
+      float: left;
+    }
+
+            .fa-user {
+              color: #B5B5B5;
+              margin-top: 9px;
+              position: relative;
+            }
+
+            .fa-bars {
+              color: #B5B5B5;
+              margin-left: 40px;
+              position: relative;
+            }
+
+            .fa-commenting {
+              color: #B5B5B5;
+              margin-left: 40px;
+              position: relative;
+            }
+
+/* categorias de busqueda */
+    .categories {
+      height: 70px;
+      margin-left: 140px;
+      position: relative;
+
+    }
+
+    #text {
+      text-align: center;
+    }
+
+            .cheatsheet {
+              background: #746050;
+              width: 135px;
+              height: 60px;
+              border-radius: 9px;
+              margin-left: 14px;
+              position: relative;
+              float: left;
+            }
+
+            .tutorial {
+              width: 135px;
+              height: 60px;
+              background: #AB8B6F;
+              border-radius: 9px;
+              margin-left: 14px;
+              position: relative;
+              float: left;
+            }
+
+            .code {
+              width: 88px;
+              height: 60px;
+              background: #8D7966;
+              border-radius: 9px;
+              margin-left: 14px;
+              position: relative;
+              float: left;
+            }
+
+            .fun {
+              width: 88px;
+              height: 60px;
+              background: #8D7966;
+              border-radius: 9px;
+              margin-left: 14px;
+              position: relative;
+              float: left;
+            }
+
+            .programming {
+              width: 145px;
+              height: 60px;
+              background: #779072;
+              border-radius: 9px;
+              margin-left: 14px;
+              position: relative;
+              float: left;
+            }
+
+            .proyects {
+              width: 110px;
+              height: 60px;
+              background: #83755D;
+              border-radius: 9px;
+              margin-left: 14px;
+              position: relative;
+              float: left;
+            }
+
+            .posts {
+              width: 86px;
+              height: 60px;
+              background: #83755D;
+              border-radius: 9px;
+              margin-left: 14px;
+              position: relative;
+              float: left;
+            }
+
+            .medium {
+              width: 106px;
+              height: 60px;
+              background: #99775C;
+              border-radius: 9px;
+              margin-left: 14px;
+              position: relative;
+              float: left;
+            }
+
+            .videos {
+              width: 99px;
+              height: 60px;
+              background: #735F4E;
+              border-radius: 9px;
+              margin-left: 14px;
+              position: relative;
+              float: left;
+            }
+
+
+/* Contenido principal */
+.main {
+  width: 100%
+  padding: 0 80;
+  margin-top: 125px;
+  margin-left: 90px;
+  column-width: 282px;
+  column-count: 4;
+  column-gap: 20px;
+  display: inline-block;
+}
+
+    .main img {
+      width: 282px;
+      height: auto;
+      margin-top: 10px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
